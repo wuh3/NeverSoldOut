@@ -1,0 +1,91 @@
+{
+  "markets": [
+    {
+      "marketId": 1,
+      "name": "Walmart",
+      "location": "1010 W University Ave"
+    },
+    {
+      "marketId": 2,
+      "name": "Target",
+      "location": "1010 W University Ave"
+    }
+  ],
+  "categories": [
+    {
+      "groceries": [
+        "groceries1",
+        "groceries2",
+        "groceries3"
+      ],
+      "electronics": [
+        "laptops",
+        "tablet"
+      ]
+    }
+  ],
+  "retails": [
+    {
+      "retailId": 1,
+      "marketId": 2,
+      "productId": 1,
+      "productName": "milk",
+      "price": 5.67
+    },
+    {
+      "retailId": 2,
+      "marketId": 2,
+      "productId": 3,
+      "productName": "espresso",
+      "price": 7.65
+    }
+  ],
+  "products": [
+    {
+      "productId": 1,
+      "categoryId": 1,
+      "name": "milk"
+    },
+    {
+      "productId": 2,
+      "categoryId": 1,
+      "name": "water"
+    },
+    {
+      "productId": 3,
+      "categoryId": 1,
+      "name": "espresso"
+    }
+  ],
+  "status": [
+    {
+      "productName": "espresso",
+      "marketName": "Target",
+      "timeStamp": "Aug 8th 2022",
+      "isInStock": true,
+      "numOfLikes": 16,
+      "numOfDislikes": 9
+    },
+    {
+      "productName": "espresso",
+      "marketName": "Target",
+      "timeStamp": "Aug 8th 2022",
+      "isInStock": false,
+      "numOfLikes": 19,
+      "numOfDislikes": 6
+    }
+  ],
+  "postStatus": {
+    "{\"productnm\":\"espresso\",\"mktnm\":\"Target\",\"isInStock\":true}": ""
+  },
+  "query": [
+    {
+      "productName": "amrni",
+      "marketName": "caffe paradiso",
+      "location": "1010 W University Ave",
+      "price": 5.14,
+      "status": true,
+      "statusTimeStamp": "Aug 22th 2022"
+    }
+  ]
+}
